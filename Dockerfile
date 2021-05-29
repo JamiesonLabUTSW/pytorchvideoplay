@@ -12,6 +12,7 @@ RUN python -m pip install\
     mypy==0.812\
     flake8==3.9.2\
     pytest==6.2.4\
-    pytest-cov==2.12.0
+    pytest-cov==2.12.0\
+    pytorch-lightning==1.3.3
 
 CMD python -c 'import torch; print(torch.cuda.is_available())'
