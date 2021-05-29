@@ -9,7 +9,7 @@ RUN python -m pip install\
     omegaconf==2.0.6\
     black==21.5b1\
     isort==5.8.0\
-    mypy==0.8.12\
+    mypy=0.812\
     flake8==3.9.2\
     pytest==6.2.4\
     pytest-cov==2.12.0
